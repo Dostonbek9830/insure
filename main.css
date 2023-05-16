@@ -398,6 +398,10 @@ footer {
 
 .final-primary-link {
     padding-top: 48px;
+   
+}
+
+.primary-links {
     font-family: "Karla";
     font-weight: 700;
     font-size: 13px;
