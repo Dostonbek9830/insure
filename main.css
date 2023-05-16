@@ -206,10 +206,8 @@ body {
     background-image: url(./images/bg-2.svg);
     background-size: 697px 649px;
     background-repeat: no-repeat;
-    background-position-x: calc(-15% + -70px);
+    background-position-x: calc(-15% + -200px);
     background-position-y: calc(50% + -190px);
-    top: calc(60% + 50px);
-    left: calc();
     
 }
 
