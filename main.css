@@ -110,6 +110,7 @@ body {
 .site-hero {
     position: relative;
     width: 100%;
+    padding: 105px 0 127px 0;
     height: 600px;
     background-color: #2D2641;
     background-image: url(./images/bg-1.svg);
@@ -117,7 +118,6 @@ body {
     background-size: 697px;
     background-position-x: calc(50% + 625px);
     background-position-y: -130px ;
-    z-index: ;
     
 }
 
@@ -141,7 +141,7 @@ body {
 .hero-wrapper {
     display: flex;
     gap: 30px;
-    padding-top: 105px;
+
 }
 
 .hero-top-divider {
@@ -198,17 +198,19 @@ body {
 }
 
 .bg-2 {
+    
     position: absolute;
     display: block;
+    z-index: 100;
     width: 649px;
     height: 649px;
     display: block;
     background-image: url(./images/bg-2.svg);
+    bottom: calc(-949px / 2);
     background-size: 697px 649px;
     background-repeat: no-repeat;
-    background-position-x: calc(-15% + -200px);
-    background-position-y: calc(50% + -190px);
-    
+    right: calc(50% + 516px);
+    /* background-position-x: calc(50% - 100px);   */
 }
 
 
